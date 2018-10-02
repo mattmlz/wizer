@@ -1,15 +1,33 @@
-section.demo {
+section.presentation {
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  img.mockup {
-    width: 280px;
-    height: 571px;
-    margin: $margin-50 0;
+  div.demo {
+    position: relative;
+
+    img.mockup {
+      width: 280px;
+      height: 571px;
+      margin: $margin-50 0;
+    }
+
+    div.screens {
+      width: 242px;
+      height: 430px;
+      position: absolute;
+      top: 119px;
+      left: 19px;
+      background-color: red;
+    }
   }
 
   div.download-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
     a.download-link {
       text-decoration: none;
 
