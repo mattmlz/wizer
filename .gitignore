@@ -62,7 +62,6 @@ Temporary Items
 # Folders #
 ###########
 .htaccess
-/web
 
 ### VisualStudioCode ###
 .vscode/*
