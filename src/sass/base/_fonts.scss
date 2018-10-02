@@ -1,55 +1,55 @@
 @font-face {
   font-family: 'CaslonGraphique';
-  src: url('CaslonGraphiqueEF.ttf') format('truetype');
+  src: url('../fonts/CaslonGraphiqueEF.ttf') format('truetype');
   font-weight: $font-weight-medium;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Gotham';
-  src: url('Gotham-Bold.ttf') format('truetype');
+  src: url('../fonts/Gotham-Bold.ttf') format('truetype');
   font-weight: $font-weight-bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Gotham';
-  src: url('Gotham-LightItalic.ttf') format('truetype');
+  src: url('../fonts/Gotham-LightItalic.ttf') format('truetype');
   font-weight: $font-weight-light;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Gotham';
-  src: url('Gotham-Medium.ttf') format('truetype');
+  src: url('../fonts/Gotham-Medium.ttf') format('truetype');
   font-weight: $font-weight-medium;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Gotham';
-  src: url('Gotham-Light.ttf') format('truetype');
+  src: url('../fonts/Gotham-Light.ttf') format('truetype');
   font-weight: $font-weight-light;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Gotham Book';
-  src: url('Gotham-BookItalic.ttf') format('truetype');
+  src: url('../fonts/Gotham-BookItalic.ttf') format('truetype');
   font-weight: $font-weight-regular;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Gotham';
-  src: url('Gotham-MediumItalic.ttf') format('truetype');
+  src: url('../fonts/Gotham-MediumItalic.ttf') format('truetype');
   font-weight: $font-weight-medium;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Gotham Book';
-  src: url('Gotham-Book.ttf') format('truetype');
+  src: url('../fonts/Gotham-Book.ttf') format('truetype');
   font-weight: $font-weight-regular;
   font-style: normal;
 }
