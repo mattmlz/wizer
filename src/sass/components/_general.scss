@@ -19,3 +19,18 @@ body {
     }
   }
 }
+
+@media screen and (max-width: 375px) {
+  body {
+    font-size: $font-size-15;
+    section {
+      h2.section-title {
+        font-size: $font-size-30;
+      }
+
+      h3 {
+        font-size: $font-size-25;
+      }
+    }
+  }
+}

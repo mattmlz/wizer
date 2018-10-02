@@ -21,3 +21,12 @@ section.manifesto {
     justify-content: space-evenly;
   }
 }
+
+@media screen and (max-width: 375px) {
+  section.manifesto {
+    div.partial {
+      margin: $margin-20 $margin-30;
+      text-align: center;
+    }
+  }
+}
