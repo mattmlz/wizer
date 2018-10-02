@@ -1,3 +1,23 @@
 section.manifesto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
+  div.partial {
+    margin: $margin-20 $margin-100;
+    line-height: 25px;
+    p {
+      margin: $margin-10 0;
+    }
+  }
+
+  div.problematic {
+    p {
+      font-style: italic;
+    }
+  }
+
+  div.brand-manifesto {
+    justify-content: space-evenly;
+  }
 }
