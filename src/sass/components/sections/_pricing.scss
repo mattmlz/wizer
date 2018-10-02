@@ -1,0 +1,37 @@
+section.pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  table {
+    margin: $margin-50 0;
+    td, th {
+      width: 100px;
+      height: 20px;
+      border: 1px solid $black;
+      padding: $margin-10;
+      text-align: center;
+      vertical-align: middle;
+
+      &.no-style {
+        border: none;
+        background-color: $white;
+      }
+
+      &.title {
+        width: auto;
+        font-weight: $font-weight-bold;
+      }
+    }
+
+    th, tfoot td{
+      text-align: center;
+      font-weight: $font-weight-bold;
+    }
+
+    thead, tfoot {
+      background-color: $black;
+      color: $white;
+    }
+  }
+}
