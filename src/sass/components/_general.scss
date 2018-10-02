@@ -1,3 +1,13 @@
 body {
   background-color: $white;
+  font-family: "Gotham Book";
+
+  section {
+    margin: $margin-50 0;
+
+    h2.section-title {
+      text-align: center;
+      font-size: $font-size-50;
+    }
+  }
 }

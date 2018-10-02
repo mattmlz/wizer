@@ -1,0 +1,31 @@
+section.demo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img.mockup {
+    width: 280px;
+    height: 571px;
+    margin: $margin-50 0;
+  }
+
+  div.download-links {
+    a.download-link {
+      text-decoration: none;
+
+      img {
+        margin: 0 $margin-10;
+      }
+
+      img.appstore {
+        width: 225px;
+        height: 79px;
+      }
+
+      img.playstore {
+        width: 220px;
+        height: 76px;
+      }
+    }
+  }
+}
