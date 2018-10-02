@@ -3,7 +3,7 @@ header.header {
   margin: $margin-20;
 
   h1.name {
-    font-family: "CaslonGraphique";
+    font-family: $font-logo;
     font-size: $font-size-30;
   }
   h2.moto {

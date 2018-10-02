@@ -18,7 +18,18 @@ section.presentation {
       position: absolute;
       top: 119px;
       left: 19px;
-      background-color: red;
+
+      div.screen {
+        width: 242px;
+        height: 430px;
+        position: absolute;
+        background-color: $white;
+
+        img {
+          width: 242px;
+          height: 430px;
+        }
+      }
     }
   }
 
